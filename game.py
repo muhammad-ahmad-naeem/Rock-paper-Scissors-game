@@ -1,8 +1,26 @@
 
 
-
 import random
 import tkinter as tk
+
+
+# ----------------------------------------------------------------------
+# COLOUR PALETTE  (warm beige / cream / coffee tones)
+# ----------------------------------------------------------------------
+BG          = "#F3ECE0"
+CARD_BG     = "#FBF7EF"
+BORDER      = "#E1D3B8"
+ACCENT      = "#B98B4E"
+ACCENT_DARK = "#8C6A3B"
+TEXT_DARK   = "#4A3B2A"
+TEXT_MUTED  = "#8A7A63"
+WIN         = "#6E8B4E"
+LOSE        = "#B5615B"
+TIE         = "#B98B4E"
+CHOICE_BG   = "#EFE6D4"
+CHOICE_HOVER= "#E6D8BC"
+CHOICE_SEL  = "#E4D4AE"
+WHITE_TEXT  = "#FFFDF8"
 
 CHOICES = ("rock", "paper", "scissors")
 EMOJI = {"rock": "✊", "paper": "✋", "scissors": "✌️"}
